@@ -52,6 +52,25 @@ class ReservationRepository extends ServiceEntityRepository
                 ->getQuery()
                 ->getResult();
    }
+   public function findReservationsByUserId($userId):array
+   {
+       return $this->createQueryBuilder('r')
+           ->join('r.user', 'u')
+           ->andWhere('u.id = :id')
+           ->setParameter('id', $userId)
+           ->getQuery()
+           ->getResult();
+   }
+   public function findAllReservationsSortedByStartDateAndUser(): array
+    {
+        return $this->createQueryBuilder('r')
+            ->leftJoin('r.user', 'u') 
+            ->orderBy('r.start', 'DESC') 
+            ->addOrderBy('u.lastname', 'ASC') 
+            ->getQuery()
+            ->getResult();
+    }
+}
     //    /**
     //     * @return Reservation[] Returns an array of Reservation objects
     //     */
@@ -76,4 +95,4 @@ class ReservationRepository extends ServiceEntityRepository
     //            ->getOneOrNullResult()
     //        ;
     //    }
-}
+

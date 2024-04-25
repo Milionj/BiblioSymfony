@@ -3,14 +3,14 @@
 {% block title %}Hello SalleController!{% endblock %}
 
 {% block body %}
- <h1 class="d-flex align-items-center justify-content-center my-5">Les salles disponibles</h1>
+ <h1 class="d-flex align-items-center justify-content-center my-5">{% trans %}Rooms available {% endtrans %}</h1>
     
     {% if app.user %}
         {% if app.user.subscriptions is empty %}
-            <h3 class='text-center'>Vous devez être <a href="{{ path('app_sub')}}" class='btn btn-primary'>abonné</a> à nos services pour réserver une salle</h3>
+            <h3 class='text-center'>{% trans %}You must be {% endtrans %}<a href="{{ path('app_sub')}}" class='btn btn-primary'>{% trans %}subscribed  {% endtrans %}</a>{% trans %}to our services to book a room.  {% endtrans %}</h3>
         {% endif %}
     {% else %}
-            <h3 class='text-center'>Vous devez être <a href="{{ path('app_login')}}" class='btn btn-primary'>Connecté</a> pour acceder à nos services</h3>
+            <h3 class='text-center'>{% trans %}You must be {% endtrans %}<a href="{{ path('app_login')}}" class='btn btn-primary'>{% trans %}connected  {% endtrans %}</a>{% trans %}to our services to book a room.  {% endtrans %}</h3>
     {% endif %}
 
 <div class="container">
@@ -20,16 +20,16 @@
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title d-flex align-items-center justify-content-center m-3">Salle {{ salle.nom }}</h5>
-                    <p class="card-text">Capacité d'accueil : {{ salle.capacite }} personnes</p>
-                    <p class="card-text ">Equipements disponibles :</p>
+                    <h5 class="card-title d-flex align-items-center justify-content-center m-3">{% trans %}Room {% endtrans %}  {{ salle.nom }}</h5>
+                    <p class="card-text">{% trans %}Capacity : {% endtrans %}{{ salle.capacite }} {% trans %} peoples {% endtrans %}</p>
+                    <p class="card-text ">{% trans %}Equipment available : {% endtrans %}</p>
                     {% for equipement in salle.equipement %}
                         <h6><span class="badge text-bg-secondary m-1">{{ equipement.nom }}</span></h6>
                     {% endfor %}
                     <br>
                     <div class="d-grid ">
-                        <a href="{{ path('app_reservation', {'id': salle.id}) }}" class="btn  btn-primary">Voir les disponibilités<i class="fa fa-calendar mx-1" aria-hidden="true"></i></a>
-                        <a href="{{ path('app_see_ratings', {'id': salle.id})}}" class='btn btn-success mt-2'>Voir les avis</a> 
+                        <a href="{{ path('app_reservation', {'id': salle.id}) }}" class="btn  btn-primary">{% trans %}Show disponibility : {% endtrans %}<i class="fa fa-calendar mx-1" aria-hidden="true"></i></a>
+                        <a href="{{ path('app_see_ratings', {'id': salle.id})}}" class='btn btn-success mt-2'>{% trans %}See the reviews  {% endtrans %}</a> 
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@
 
 							<form id='checkout-form' method='post' action="{{ path('app_stripe_charge', {'id': plan.id}) }}">
 								<input type='hidden' name='stripeToken' id='stripe-token-id'>
-								<label for="card-element" class="mb-5">Abonnement
+								<label for="card-element" class="mb-5">{% trans %}Subscription{% endtrans %}
 									{{ plan.name }}:
 									{{ plan.price / 100 | number_format(2) }}
 									€

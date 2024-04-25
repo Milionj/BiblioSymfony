@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\User;
 use App\Entity\Salle;
 use App\Entity\Reservation;
+use App\Repository\ReservationRepository;
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Bundle\SecurityBundle\Security;
 use Symfony\Component\HttpFoundation\Response;
@@ -40,6 +41,19 @@ class UserHistoryController extends AbstractController
             'userList' => $userList,
             'roomList' => $roomList,
             'reservationList' => $reservationList,
+        ]);
+    }
+    #[Route ('/reservations', name: 'app_user_reservations', methods: ['GET'])]
+    public function reservations(ReservationRepository $reservationRepo)
+    {
+        if(!$this->isGranted('ROLE_ADMIN')){
+            return $this->redirectToRoute('app_home');
+        }
+
+        $reservations = $reservationRepo->findAllReservationsSortedByStartDateAndUser();
+
+        return $this->render('user_history/reservations.html.twig', [
+            'reservations' => $reservations
         ]);
     }
 }

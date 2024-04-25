@@ -6,6 +6,7 @@ use App\Entity\Plan;
 use App\Entity\User;
 use App\Form\UserType;
 use App\Entity\Subscription;
+use App\Repository\ReservationRepository;
 use App\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\Persistence\ManagerRegistry;
@@ -90,4 +91,6 @@ class UserController extends AbstractController
 
         return $this->redirectToRoute('app_user', [], Response::HTTP_SEE_OTHER);
     }
+
+    
 }

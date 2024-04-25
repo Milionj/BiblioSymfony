@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="cC75Ie0" resname="First name">
+        <source>First name</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="e0iIBJR" resname="Last name">
+        <source>Last name</source>
+        <target>Nom de famille</target>
+      </trans-unit>
+      <trans-unit id="fozSBW2" resname="Title">
+        <source>Title</source>
+        <target>Titre</target>
+      </trans-unit>
+      <trans-unit id="5LufHs6" resname="Start">
+        <source>Start</source>
+        <target>Début</target>
+      </trans-unit>
+      <trans-unit id="9NseSEd" resname="End">
+        <source>End</source>
+        <target>Fin</target>
+      </trans-unit>
+      <trans-unit id="L1iK.hS" resname="nom">
+        <source>nom</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="kR6onEP" resname="Room">
+        <source>Room</source>
+        <target>Salle </target>
+      </trans-unit>
+      <trans-unit id="yQRveje" resname="description">
+        <source>description</source>
+        <target>Description </target>
+      </trans-unit>
+      <trans-unit id="CJnWiSz" resname="You have been banned, you can no longer access our services.">
+        <source>You have been banned, you can no longer access our services.</source>
+        <target>Vous avez été banni, vous ne pouvez plus accéder à nos services.</target>
+      </trans-unit>
+      <trans-unit id="DiImtSN" resname="Welcome">
+        <source>Welcome</source>
+        <target>Bonjour</target>
+      </trans-unit>
+      <trans-unit id="x5Pg2aH" resname="Registration">
+        <source>Registration</source>
+        <target>Inscription</target>
+      </trans-unit>
+      <trans-unit id="7zJLSjR" resname="My identity">
+        <source>My identity</source>
+        <target>Mon identité</target>
+      </trans-unit>
+      <trans-unit id="S20EXjd" resname="My details">
+        <source>My details</source>
+        <target>Mes coordonées</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="R94jWG5" resname="Sign Up">
+        <source>Sign Up</source>
+        <target>M'inscrire</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>Me connecter</target>
+      </trans-unit>
+      <trans-unit id="3CCz1dL" resname="Library">
+        <source>Library</source>
+        <target>Bibliothèque</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="NErQWmn" resname="Leave a review">
+        <source>Leave a review</source>
+        <target>Laisser un commentaire.</target>
+      </trans-unit>
+      <trans-unit id="Mx_Cb_I" resname="You are logged as">
+        <source>You are logged as</source>
+        <target>Vous êtes connecté(e) en tant que</target>
+      </trans-unit>
+      <trans-unit id="S9iGthN" resname="disconnection">
+        <source>disconnection</source>
+        <target>deconnexion</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="_TJnqhH" resname="Remember me">
+        <source>Remember me</source>
+        <target>Se souvenir de moi</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="Um4Ah8w" resname="Description">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id=".4BZ3Gd" resname="Actions">
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="bi6mN7M" resname="No records found">
+        <source>No records found</source>
+        <target>Aucune reservation trouvé</target>
+      </trans-unit>
+      <trans-unit id="_TXZktC" resname="Edit Reservation">
+        <source>Edit Reservation</source>
+        <target>Modifier Reservation</target>
+      </trans-unit>
+      <trans-unit id="U0M9PNE" resname="back to list">
+        <source>back to list</source>
+        <target>Retourner à la liste</target>
+      </trans-unit>
+      <trans-unit id="kjFK3W7" resname="New Reservation">
+        <source>New Reservation</source>
+        <target>Nouvelle Reservation</target>
+      </trans-unit>
+      <trans-unit id="HewYv9s" resname="Create a new reservation">
+        <source>Create a new reservation</source>
+        <target>Créer une nouvelle reservation</target>
+      </trans-unit>
+      <trans-unit id="5kXUlmW" resname="Available time slots">
+        <source>Available time slots</source>
+        <target>Créneaux horraire disponible</target>
+      </trans-unit>
+      <trans-unit id="9UP.lrS" resname="Book a date">
+        <source>Book a date</source>
+        <target>Réserver une date</target>
+      </trans-unit>
+      <trans-unit id="8ynun.5" resname="In order to book a room, please">
+        <source>In order to book a room, please</source>
+        <target>Pour réserver une salle, veuillez</target>
+      </trans-unit>
+      <trans-unit id="QoghNQ6" resname="login">
+        <source>login</source>
+        <target>Me connecter</target>
+      </trans-unit>
+      <trans-unit id="cXVRejc" resname="or">
+        <source>or</source>
+        <target>ou</target>
+      </trans-unit>
+      <trans-unit id="uKE5f6c" resname="sign up">
+        <source>sign up</source>
+        <target>M'inscrire</target>
+      </trans-unit>
+      <trans-unit id="hDrAEUn" resname="Ok">
+        <source>Ok</source>
+        <target>Ok</target>
+      </trans-unit>
+      <trans-unit id="tFbm1a5" resname="Reservation">
+        <source>Reservation</source>
+        <target>Reservation</target>
+      </trans-unit>
+      <trans-unit id="RkxP.QG" resname="Edit">
+        <source>Edit</source>
+        <target>Editer</target>
+      </trans-unit>
+      <trans-unit id="iZN_fq9" resname="Opinion on the room">
+        <source>Opinion on the room</source>
+        <target>Avis sur la salle </target>
+      </trans-unit>
+      <trans-unit id="oEPorwJ" resname="Average rating:">
+        <source>Average rating:</source>
+        <target>Note moyenne:</target>
+      </trans-unit>
+      <trans-unit id="KUdSaZ9" resname="Posted By:">
+        <source>Posted By:</source>
+        <target>Posté par:</target>
+      </trans-unit>
+      <trans-unit id="wv9kXIJ" resname="Note :">
+        <source>Note :</source>
+        <target>Note :</target>
+      </trans-unit>
+      <trans-unit id="qwcKPwm" resname="Posted on">
+        <source>Posted on</source>
+        <target>Posté le</target>
+      </trans-unit>
+      <trans-unit id="U_WxKz6" resname="Change my information">
+        <source>Change my information</source>
+        <target>Changer mes informations</target>
+      </trans-unit>
+      <trans-unit id="CuC_O7K" resname="User handler">
+        <source>User handler</source>
+        <target>Gestionnaire d'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="FHNqLrn" resname="Role">
+        <source>Role</source>
+        <target>Role</target>
+      </trans-unit>
+      <trans-unit id="60xOI5E" resname="Date of birth">
+        <source>Date of birth</source>
+        <target>Date de naissance</target>
+      </trans-unit>
+      <trans-unit id="PN..9Ga" resname="Adress">
+        <source>Adress</source>
+        <target>Adresse</target>
+      </trans-unit>
+      <trans-unit id="c5VgHdg" resname="Zipcode">
+        <source>Zipcode</source>
+        <target>Code Postal</target>
+      </trans-unit>
+      <trans-unit id=".DP3Mkb" resname="City">
+        <source>City</source>
+        <target>Ville</target>
+      </trans-unit>
+      <trans-unit id="Y9zriAC" resname="Phone">
+        <source>Phone</source>
+        <target>Téléphone</target>
+      </trans-unit>
+      <trans-unit id="59PnafP" resname="Administrator">
+        <source>Administrator</source>
+        <target>Administrateur</target>
+      </trans-unit>
+      <trans-unit id="tRLZfny" resname="User">
+        <source>User</source>
+        <target>Utilisateur</target>
+      </trans-unit>
+      <trans-unit id="wcEAnT8" resname="Update">
+        <source>Update</source>
+        <target>Mettre a jour</target>
+      </trans-unit>
+      <trans-unit id="G.gor6y" resname="Back to my profil">
+        <source>Back to my profil</source>
+        <target>Retourner à mon profil</target>
+      </trans-unit>
+      <trans-unit id="HLC6El_" resname="Information">
+        <source>Information</source>
+        <target>Information</target>
+      </trans-unit>
+      <trans-unit id="SZnGxse" resname="Subscription">
+        <source>Subscription</source>
+        <target>Abonnement</target>
+      </trans-unit>
+      <trans-unit id=".kgwk4q" resname="See my room reservations">
+        <source>See my room reservations</source>
+        <target>Voir mes réservations de salle</target>
+      </trans-unit>
+      <trans-unit id="j.omroQ" resname="Subscribe to access our services">
+        <source>Subscribe to access our services</source>
+        <target>Abonnez-vous pour accéder à nos services</target>
+      </trans-unit>
+      <trans-unit id="7PXRb3i" resname="To use our services,">
+        <source>To use our services,</source>
+        <target>Pour utiliser nos services,</target>
+      </trans-unit>
+      <trans-unit id=".HQYHs6" resname="ou">
+        <source>ou</source>
+        <target>ou</target>
+      </trans-unit>
+      <trans-unit id="qi8n41O" resname="vous">
+        <source>vous</source>
+        <target>vous</target>
+      </trans-unit>
+      <trans-unit id="VXz17cG" resname="You currently have a subscription">
+        <source>You currently have a subscription</source>
+        <target>Vous avez actuellement un abonnement</target>
+      </trans-unit>
+      <trans-unit id="_iZjYtL" resname="thanks for your support!">
+        <source>thanks for your support!</source>
+        <target>merci de votre soutien !</target>
+      </trans-unit>
+      <trans-unit id="mxH2twf" resname="Monthly">
+        <source>Monthly</source>
+        <target>Mensuel</target>
+      </trans-unit>
+      <trans-unit id="LF6BcUZ" resname="Annual">
+        <source>Annual</source>
+        <target>Annuel</target>
+      </trans-unit>
+      <trans-unit id="TTeL0r1" resname="(Budget reductions of 10%)">
+        <source>(Budget reductions of 10%)</source>
+        <target>(Réduction de 10%)</target>
+      </trans-unit>
+      <trans-unit id="ywjhJe5" resname="Access to our services during">
+        <source>Access to our services during</source>
+        <target>Acceder à nos services durant </target>
+      </trans-unit>
+      <trans-unit id="zYwRfm3" resname="1 month">
+        <source>1 month</source>
+        <target>1 mois</target>
+      </trans-unit>
+      <trans-unit id="kWR7rcN" resname="1 year">
+        <source>1 year</source>
+        <target>1 an</target>
+      </trans-unit>
+      <trans-unit id="GuX.wQ6" resname="with :">
+        <source>with :</source>
+        <target>avec :</target>
+      </trans-unit>
+      <trans-unit id="el9PqT3" resname="Borrowing books">
+        <source>Borrowing books</source>
+        <target>Emprunt de livres</target>
+      </trans-unit>
+      <trans-unit id="Bwx_SMr" resname="Rental of work rooms">
+        <source>Rental of work rooms</source>
+        <target>Location de salle</target>
+      </trans-unit>
+      <trans-unit id="zA442px" resname="Subscribe">
+        <source>Subscribe</source>
+        <target>S'abonné</target>
+      </trans-unit>
+      <trans-unit id="naf3a8g" resname="Books">
+        <source>Books</source>
+        <target>Livres</target>
+      </trans-unit>
+      <trans-unit id="xY5BcKf" resname="Our rooms">
+        <source>Our rooms</source>
+        <target>Nos salles</target>
+      </trans-unit>
+      <trans-unit id="SImnIRh" resname="Our subscriptions">
+        <source>Our subscriptions</source>
+        <target>Nos abonnements</target>
+      </trans-unit>
+      <trans-unit id="M92irO6" resname="User Handler">
+        <source>User Handler</source>
+        <target>Gestionnaire d'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="tcJumeC" resname="Banished">
+        <source>Banished</source>
+        <target>Banni</target>
+      </trans-unit>
+      <trans-unit id="NEYcjd0" resname="My profil">
+        <source>My profil</source>
+        <target>Mon profil</target>
+      </trans-unit>
+      <trans-unit id="BN_sNnG" resname="Disconnected">
+        <source>Disconnection</source>
+        <target> Déconnexion </target>
+      </trans-unit>
+      <trans-unit id="u7LfYOv" resname="Rooms available">
+        <source>Rooms available</source>
+        <target>Salle disponible</target>
+      </trans-unit>
+      <trans-unit id="AplEozp" resname="You must be">
+        <source>You must be</source>
+        <target>Vous devez être</target>
+      </trans-unit>
+      <trans-unit id="q8EvjWZ" resname="subscribed">
+        <source>subscribed</source>
+        <target>abonné</target>
+      </trans-unit>
+      <trans-unit id="pMyqBOl" resname="to our services to book a room.">
+        <source>to our services to book a room.</source>
+        <target>à nos services pour réserver une salle.</target>
+      </trans-unit>
+      <trans-unit id="Eqe9huC" resname="connected">
+        <source>connected</source>
+        <target>connecté</target>
+      </trans-unit>
+      <trans-unit id="HbctCYR" resname="Capacity :">
+        <source>Capacity :</source>
+        <target>Capacité :</target>
+      </trans-unit>
+      <trans-unit id="77C1aUS" resname="peoples">
+        <source>peoples</source>
+        <target>personnes</target>
+      </trans-unit>
+      <trans-unit id="V_bcdMo" resname="Equipment available:">
+        <source>Equipment available:</source>
+        <target>Equipement disponibles</target>
+      </trans-unit>
+      <trans-unit id="yJgY_qA" resname="Show disponibility :">
+        <source>Show disponibility :</source>
+        <target>Voir les disponibilités :</target>
+      </trans-unit>
+      <trans-unit id="xOk76dD" resname="See the reviews">
+        <source>See the reviews</source>
+        <target>Voir les avis</target>
+      </trans-unit>
+      <trans-unit id="aGMGfrC" resname="See">
+        <source>See</source>
+        <target>Voir</target>
+      </trans-unit>
+      <trans-unit id="JftZiVE" resname="Unban">
+        <source>Unban</source>
+        <target>Débannir</target>
+      </trans-unit>
+      <trans-unit id="HnOANO8" resname="The duration must be between 1 and 4 hours.">
+        <source>The booking period must be between 1 and 4 hours.</source>
+        <target>La durée de réservation doit être comprise entre 1 et 4 heures.</target>
+      </trans-unit>
+      <trans-unit id="ur5A7Gv" resname="This time slot is already booked.">
+        <source>This time slot is already booked.</source>
+        <target>Cette plage horaire est déjà réservée.</target>
+      </trans-unit>
+      <trans-unit id="SheT6ZA" resname="User not found">
+        <source>User not found</source>
+        <target>Utilisateur non trouvé</target>
+      </trans-unit>
+      <trans-unit id="iNysdh5" resname="Your reservation has been registered.">
+        <source>Your reservation has been registered.</source>
+        <target>Votre réservation a bien été enregistrée.</target>
+      </trans-unit>
+      <trans-unit id="Pndda1U" resname="Reservations can only be made between 8am and 7pm from Monday to Friday.">
+        <source>Reservations can only be made between 8am and 7pm from Monday to Friday.</source>
+        <target>Une réservation peut avoir lieu uniquement de 8h à 19h, du Lundi au Vendredi.</target>
+      </trans-unit>
+      <trans-unit id="9VVjs4a" resname="Last Name">
+        <source>Last Name</source>
+        <target>Nom de famille</target>
+      </trans-unit>
+      <trans-unit id="wL91vXi" resname="Change">
+        <source>Change</source>
+        <target>Changer</target>
+      </trans-unit>
+      <trans-unit id="Lol0IrI" resname="Room Manager">
+        <source>Room Manager</source>
+        <target>Gestionnaire de salle</target>
+      </trans-unit>
+      <trans-unit id="ruZs_MC" resname="Equipment available :">
+        <source>Equipment available :</source>
+        <target>Equipement disponible :</target>
+      </trans-unit>
+      <trans-unit id="gUAKxPm" resname="Your booking history">
+        <source>Your booking history</source>
+        <target>Votre historique de réservation</target>
+      </trans-unit>
+      <trans-unit id="s0TYDiS" resname="The">
+        <source>The</source>
+        <target>Le</target>
+      </trans-unit>
+      <trans-unit id="ElRmuCH" resname="By">
+        <source>By</source>
+        <target>Par</target>
+      </trans-unit>
+      <trans-unit id="Nx2dVDS" resname="h until">
+        <source>h until</source>
+        <target>h jusqu'à</target>
+      </trans-unit>
+      <trans-unit id="qqlAJmT" resname="h">
+        <source>h</source>
+        <target>h</target>
+      </trans-unit>
+      <trans-unit id="JpWDE1V" resname="leave a review">
+        <source>leave a review</source>
+        <target>Laisser un avis</target>
+      </trans-unit>
+      <trans-unit id="MMN23Gz" resname="All user bookings">
+        <source>All user bookings</source>
+        <target>Toutes les réservations utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="vzdjODq" resname="Customer">
+        <source>Customer</source>
+        <target>Client</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

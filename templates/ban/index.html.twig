@@ -10,10 +10,10 @@
 		<thead>
 			<tr>
 				<th scope="col">Id</th>
-				<th scope="col">Prénom</th>
-				<th scope="col">Nom</th>
-				<th scope="col">Email</th>
-				<th scope="col">Actions</th>
+				<th scope="col">{% trans %}First name  {% endtrans %}</th>
+				<th scope="col">{% trans %}Last name {% endtrans %}</th>
+				<th scope="col">{% trans %}Email {% endtrans %}</th>
+				<th scope="col">{% trans %}Actions {% endtrans %}</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -24,8 +24,8 @@
 					<td>{{ user.lastname }}</td>
 					<td>{{ user.email }}</td>
 					<td>
-						<a href="{{ path('app_user_show', {'id': user.id}) }}" class='btn btn-primary'>Voir</a>
-						<a href="{{ path('app_unban', {'id': user.id}) }}" class="btn btn-success" onclick="return confirm('êtes vous sur de vouloir debannir cet utilisateur?');">Débannir</a>
+						<a href="{{ path('app_user_show', {'id': user.id}) }}" class='btn btn-primary'>{% trans %}See {% endtrans %}</a>
+						<a href="{{ path('app_unban', {'id': user.id}) }}" class="btn btn-success" onclick="return confirm('êtes vous sur de vouloir debannir cet utilisateur?');">{% trans %}Unban {% endtrans %}</a>
 					</td>
 				</tr>
 			{% endfor %}
